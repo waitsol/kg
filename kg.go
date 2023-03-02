@@ -1,7 +1,7 @@
-package  kg
+package kg
 
 //构造字符串
-func g_createString(n int, c byte) string {
+func G_createString(n int, c byte) string {
 	if n <= 0 {
 		return ""
 	}
@@ -13,7 +13,7 @@ func g_createString(n int, c byte) string {
 }
 
 //分割文本字符串
-func g_stringSplit(text string, ic byte) []string {
+func G_stringSplit(text string, ic byte) []string {
 	vs := []string{}
 
 	b := -1
